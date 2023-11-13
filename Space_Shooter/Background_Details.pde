@@ -1,11 +1,17 @@
 class background_details {
 
   //Establish varriables
-  float direction = 0;
   float speed = 0;
+  int x = 0;
+  int y = 0;
   
   //Establish vectors.
-
+  PVector position;
+  
+  background_details () {
+    position = new PVector(x, y);
+  }
+  
   //Inside setup:
 
     //Set random position and speed for vectors
