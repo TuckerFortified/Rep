@@ -1,13 +1,21 @@
-//Establish vectors.
+class background_details {
 
-//Inside setup:
+  //Establish varriables
+  float direction = 0;
+  float speed = 0;
+  
+  //Establish vectors.
 
-  //Set random position and speed for vectors
+  //Inside setup:
 
-//Inside draw:
+    //Set random position and speed for vectors
 
-  //Change the value of the vector by adding the speed value
+  //Inside draw:
 
-  //Draw the star at the value of the vector
+    //Change the value of the vector by adding the speed value
 
-  //If the star is off the screen reset the x position, and randomize the y position and speed
+    //Draw the star at the value of the vector
+
+    //If the star is off the screen reset the x position, and randomize the y position and speed
+
+}
